@@ -3,11 +3,42 @@
 //------------------------------
 #include "catch.hpp"
 //------------------------------
-
 // Put the assignment code here
-
 class Quaternion {
+  private:
+  double a;
+  double bi;
+  double cj;
+  double dk;
+  public:
+  Quaternion ( double a, double bi , double cj, double dk);
+  bool operator==(const Quaternion &rhs)const{
+    return Quaternion == rhs.Quaternion;
+    } 
+  double Quaternion operator+ (const double &obj);
 };
+
+void Quaternion:: Quaternion.q ( double , double, double , double);
+void Quaternion:: Quaternion.p ( double , double, double , double);
+void Quaternion:: Quaternion.r ( double , double, double , double);
+
+int main(){
+Quaternion q,p,r;
+void Quaternion::bool operator==(const Quaternion &rhs)const{
+  if ( Quaternion.q == Quaternion.p) {
+    cout<< " True " << endl;
+  }
+  else{
+    cout << " False" << endl;
+  }
+
+double Quaternion operator+ (const double &obj){
+  if (q)
+}
+
+}
+}
+
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
